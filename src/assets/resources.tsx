@@ -9,18 +9,33 @@ export type Resources = {
 
 export const resources: Resources[] = [
   {
-    title: "Velocidade",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-    icon: <Zap className="text-emerald-500" />,
+    title: "Design Responsivo",
+    description: "Funciona em qualquer tela.",
+    icon: <Zap className="text-red-500" />,
   },
   {
-    title: "Segurança",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    title: "SEO Básico",
+    description: "Estrutura semântica pronta.",
     icon: <Shield className="text-sky-500" />,
   },
   {
-    title: "Conversão",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    title: "Performance",
+    description: "Tailwind + Vite rápidos.",
     icon: <Star className="text-yellow-500" />,
+  },
+  {
+    title: "Acessibilidade",
+    description: "Foco e constraste adequados",
+    icon: <Zap className="text-emerald-500" />,
+  },
+  {
+    title: "Componentes Limpos",
+    description: "Código simples para escalar.",
+    icon: <Shield className="text-purple-500" />,
+  },
+  {
+    title: "Sem Dependências Pesadas",
+    description: "Somente o essencial.",
+    icon: <Star className="text-orange-500" />,
   },
 ];
