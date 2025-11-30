@@ -1,16 +1,16 @@
 import { motion } from "motion/react";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
-import BenefictCard from "../../components/BenefictCard/BenefictCard";
 import { beneficts } from "../../assets/beneficts";
 import { defaultSelection } from "../../utils/defaultVariables";
+import Card from "../../components/Card/Card";
 
 const Hero = () => {
   return (
     <section className="relative overflow-hidden border-2 border-white">
       <div className="relative mx-auto max-w-5xl px-4 pt-20 pb-60 font-sans">
         <motion.h1
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 1 }}
           className="border-2 text-start text-5xl font-extrabold text-white select-none"
@@ -48,8 +48,8 @@ const Hero = () => {
         >
           {beneficts.map((benefict) => {
             return (
-              <BenefictCard
-                benefict={{
+              <Card
+                array={{
                   title: benefict.title,
                   description: benefict.description,
                   icon: benefict.icon,
