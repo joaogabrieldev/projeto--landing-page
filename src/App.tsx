@@ -4,6 +4,9 @@ import BodyPinkGlow from "./widgets/BodyPinkGlow/BodyPinkGlow";
 import Hero from "./widgets/Hero/Hero";
 import Navbar from "./widgets/Navbar/Navbar";
 import NormalBody from "./widgets/NormalBody/NormalBody";
+import Resources from "./widgets/Resources/Resources";
+import Prices from "./widgets/Prices/Prices";
+import Testimonials from "./widgets/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         </header>
         <main>
           <Hero />
+          <Resources />
+          <Testimonials />
+          <Prices />
         </main>
         <footer></footer>
       </NormalBody>
