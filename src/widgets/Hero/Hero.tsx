@@ -7,13 +7,13 @@ import Card from "../../components/Card/Card";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden border-2 border-white">
+    <section className="relative overflow-hidden">
       <div className="relative mx-auto max-w-5xl px-4 pt-20 pb-60 font-sans">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 1 }}
-          className="border-2 text-start text-5xl font-extrabold text-white select-none"
+          className="text-start text-5xl font-extrabold text-white select-none"
         >
           Acelere sua presença online com uma landing page{" "}
           <span className="bg-linear-to-r from-fuchsia-400 to-violet-200 bg-clip-text text-transparent">
@@ -24,7 +24,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 2 }}
-          className={`my-2.5 max-w-2xl border-2 font-semibold text-gray-400 ${defaultSelection}`}
+          className={`my-2.5 max-w-2xl font-semibold text-gray-400 ${defaultSelection}`}
         >
           Converta visitantes em clientes com um design limpo, rápido e
           responsivo, construido com React + Tailwind
@@ -33,9 +33,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 3 }}
-          className="mt-4 mb-8"
+          className="mt-6 mb-8"
         >
-          <div className="flex flex-row gap-6 border-2 border-white">
+          <div className="flex flex-row gap-6">
             <PrimaryButton width={20} label="Começar agora!" slug="/" />
             <SecondaryButton label={"Ver Recursos"} slug="/recursos" />
           </div>
