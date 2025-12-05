@@ -5,8 +5,9 @@ import Hero from "./widgets/Hero/Hero";
 import Navbar from "./widgets/Navbar/Navbar";
 import NormalBody from "./widgets/NormalBody/NormalBody";
 import Resources from "./widgets/Resources/Resources";
-import Prices from "./widgets/Prices/Prices";
+import Prices from "./widgets/Plans/Plans";
 import Testimonials from "./widgets/Testimonials/Testimonials";
+import FAQ from "./widgets/FAQ/FAQ";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Resources />
           <Testimonials />
           <Prices />
+          <FAQ />
         </main>
         <footer></footer>
       </NormalBody>
