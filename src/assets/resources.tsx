@@ -14,7 +14,7 @@ export const resources: Resources[] = [
     icon: <Image className="text-red-500" />,
   },
   {
-    title: "SEO Básico",
+    title: "SEO Avançado",
     description: "Estrutura semântica pronta.",
     icon: <Settings className="text-sky-500" />,
   },
