@@ -1,11 +1,7 @@
-import type React from "react";
+import type { IBodyGlowProps } from "../types/widgets.types";
 import "./BodyPinkGlow.css";
 
-interface IBodyProps {
-  children: React.ReactNode;
-}
-
-const BodyPinkGlow = ({ children }: IBodyProps) => {
+const BodyPinkGlow = ({ children }: IBodyGlowProps) => {
   return (
     <div className="background">
       <div className="glowDiv"></div>
