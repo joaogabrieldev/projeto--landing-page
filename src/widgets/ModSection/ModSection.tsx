@@ -1,12 +1,8 @@
-import type React from "react";
+import type { IModSectionProps } from "../types/widgets.types";
 
-interface IModSectionProps {
-  children: React.ReactNode;
-}
-
-const ModSection = ({ children }: IModSectionProps) => {
+const ModSection = ({ children, id }: IModSectionProps) => {
   return (
-    <section className="relative z-1 overflow-hidden border-2 border-white">
+    <section className="relative z-1 overflow-hidden" id={id}>
       {children}
     </section>
   );
