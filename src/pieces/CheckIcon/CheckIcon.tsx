@@ -1,7 +1,11 @@
 import { Check } from "lucide-react";
 
-const CheckIcon = () => {
-  return <Check className="text-emerald-500" />;
+interface ICheckProps {
+  iconWidth: number;
+}
+
+const CheckIcon = ({ iconWidth }: ICheckProps) => {
+  return <Check className="text-fuchsia-500" width={iconWidth} />;
 };
 
 export default CheckIcon;
