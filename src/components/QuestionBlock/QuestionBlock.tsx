@@ -1,4 +1,4 @@
-import ItemAccordation from "@/pieces/ItemAccordation/ItemAccordation";
+import ItemAccordaion from "@/pieces/ItemAccordaion/ItemAccordaion";
 import type { IQuestionBlockProps } from "../types/components.types";
 
 const defaultTitleFAQgradient = `bg-gradient-to-bl from-fuchsia-50 via-fuchsia-200 to-fuchsia-400 bg-clip-text text-transparent`;
@@ -22,7 +22,7 @@ const QuestionBlock = ({ title, questions, index }: IQuestionBlockProps) => {
       <div className="px-12 py-4">
         {questions.map((item) => {
           return (
-            <ItemAccordation
+            <ItemAccordaion
               key={item.questionID}
               questionID={item.questionID}
               questionTitle={item.questionTitle}
