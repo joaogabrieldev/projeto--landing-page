@@ -1,6 +1,5 @@
-interface IPriceBadgeProps {
-  label: string;
-}
+import type { IPriceBadgeProps } from "../types/pieces.types";
+
 
 const Badge = ({ label }: IPriceBadgeProps) => {
   return (
