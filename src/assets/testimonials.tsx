@@ -1,13 +1,9 @@
 import type { JSX } from "react";
 import { StarHalf } from "lucide-react";
 import StarFilled from "../pieces/StarFilled/StarFilled";
+import type { Testimonials } from "./types/assets.types";
 
-export type Testimonials = {
-  rating: number;
-  description: string;
-  clientStatus: string;
-  clientName: string;
-};
+
 
 export function renderStars(rating: number) {
   const integerPart = Math.floor(rating);

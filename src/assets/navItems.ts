@@ -1,8 +1,5 @@
-type NavLinks = {
-  id: string;
-  title: string;
-  slug: string;
-};
+import type { NavLinks } from "./types/assets.types";
+
 
 export const navLinks: NavLinks[] = [
   {

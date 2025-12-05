@@ -1,13 +1,5 @@
-export type Question = {
-  questionID: number;
-  questionTitle: string;
-  questionBody: string;
-};
+import type { FAQ } from "./types/assets.types";
 
-export type FAQ = {
-  title: string;
-  questions: Question[];
-};
 
 export const questions: FAQ[] = [
   {

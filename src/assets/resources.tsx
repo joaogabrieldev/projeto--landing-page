@@ -1,11 +1,5 @@
 import { Zap, Image, Settings, Hand, Layers, Package } from "lucide-react";
-import type { JSX } from "react";
-
-export type Resources = {
-  title: string;
-  description: string;
-  icon: JSX.Element;
-};
+import type { Resources } from "./types/assets.types";
 
 export const resources: Resources[] = [
   {
