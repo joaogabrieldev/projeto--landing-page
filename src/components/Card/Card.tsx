@@ -1,15 +1,5 @@
-import type { JSX } from "react";
 import { defaultSelection } from "../../utils/defaultVariables";
-
-type ArrayStructure = {
-  title: string;
-  description: string;
-  icon: JSX.Element;
-};
-
-interface ICardProps {
-  array: ArrayStructure;
-}
+import type { ICardProps } from "../types/components.types";
 
 const Card = ({ array }: ICardProps) => {
   return (
