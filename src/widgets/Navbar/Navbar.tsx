@@ -1,6 +1,7 @@
 import { navLinks } from "../../assets/navItems";
-import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
+
 import NavLink from "../../pieces/NavLink/NavLink";
+import NavButton from "./../../components/NavButton/NavButton";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       {navLinks.map((item) => {
         return <NavLink key={item.id} slug={item.slug} title={item.title} />;
       })}
-      <PrimaryButton label={"Começar agora!"} slug="/" width={20} />
+      <NavButton slug={"/"} label={"Começar agora!"} />
     </ul>
   );
 };
