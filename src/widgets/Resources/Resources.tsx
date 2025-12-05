@@ -1,19 +1,17 @@
 import { motion } from "motion/react";
 import Card from "../../components/Card/Card";
 import { resources } from "../../assets/resources";
+import ModSection from "./../ModSection/ModSection";
 
 const Resources = () => {
   return (
-    <section
-      className="relative z-1 overflow-hidden border-2 border-white"
-      id="recursos"
-    >
+    <ModSection id={"recursos"}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.75 }}
         viewport={{ once: true }}
-        className="mx-auto max-w-5xl border-2 border-white px-8 pt-20 pb-60"
+        className="mx-auto max-w-5xl px-8 pt-20 pb-60"
       >
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -49,7 +47,7 @@ const Resources = () => {
           </motion.div>
         </div>
       </motion.div>
-    </section>
+    </ModSection>
   );
 };
 
