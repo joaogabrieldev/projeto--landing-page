@@ -6,7 +6,7 @@ export type Testimonials = {
   rating: number;
   description: string;
   clientStatus: string;
-  clientName?: string;
+  clientName: string;
 };
 
 export function renderStars(rating: number) {
@@ -40,22 +40,24 @@ export function renderStars(rating: number) {
 
 export const testimonials: Testimonials[] = [
   {
+    clientName: "João Gabriel",
     rating: 4.5,
-    clientName: "João",
     description:
       "Em poucas horas colocamos a landing no ar. Leve, moderna e convertendo bem.",
     clientStatus: "Satisfeito",
   },
   {
+    clientName: "Natallya Modesto",
+    rating: 5,
     description:
       "Em poucas horas colocamos a landing no ar. Leve, moderna e convertendo bem.",
-    clientStatus: "Natallya, Muito Satisfeita",
-    rating: 5,
+    clientStatus: "Muito Satisfeita",
   },
   {
+    clientName: "Gabriel Rodrigues",
     rating: 4.9,
     description:
       "Em poucas horas colocamos a landing no ar. Leve, moderna e convertendo bem.",
-    clientStatus: "Gabriel, Satisfeito",
+    clientStatus: "Satisfeito",
   },
 ];
