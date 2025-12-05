@@ -1,10 +1,5 @@
 import { Star } from "lucide-react";
-
-interface IStarProps {
-  key?: number;
-  width: number;
-  //   classname: string;
-}
+import type { IStarProps } from "../types/pieces.types";
 
 const StarFilled = ({ key, width }: IStarProps) => {
   return (
