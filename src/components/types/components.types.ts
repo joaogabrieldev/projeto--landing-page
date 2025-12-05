@@ -1,5 +1,5 @@
 import type { JSX } from "react";
-import type { Question } from "@/assets/faq";
+import type { Question } from "@/assets/types/assets.types";
 
 //* Card
 export type ArrayStructure = {
