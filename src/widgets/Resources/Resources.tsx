@@ -11,7 +11,7 @@ const Resources = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.75 }}
         viewport={{ once: true }}
-        className="mx-auto max-w-5xl px-8 pt-20 pb-60"
+        className="mx-auto max-w-5xl px-8 pt-26 pb-60"
       >
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
