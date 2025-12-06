@@ -8,7 +8,7 @@ import Card from "../../components/Card/Card";
 const Hero = () => {
   return (
     <section className="relative overflow-hidden">
-      <div className="relative mx-auto max-w-5xl px-4 pt-20 pb-60 font-sans">
+      <div className="relative mx-auto max-w-5xl px-4 pt-20 pb-70 font-sans">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
