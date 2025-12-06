@@ -36,7 +36,7 @@ const PlanCard = ({
     : `bg-slate-900 ${defaultTransition} hover:shadow-md hover:shadow-gray-700/40`;
 
   return (
-    <div className={`rounded-2xl ${hasEmphasis} px-8 py-8`}>
+    <div className={`rounded-2xl ${hasEmphasis} px-8 py-8 max-w-[530px]`}>
       {hasBadge}
       <div>
         <h1 className="my-2 text-2xl font-bold text-white select-none">

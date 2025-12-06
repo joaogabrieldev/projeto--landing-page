@@ -17,6 +17,7 @@ const Resources = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
           className="text-2xl font-bold text-white"
         >
           Tudo o que você precisa
@@ -25,6 +26,7 @@ const Resources = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
           className="font-semibold text-gray-500"
         >
           Estrutura enxuta com componentes reutilizáveis, performance de sobre e
