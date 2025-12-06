@@ -11,6 +11,7 @@ const FAQ = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
+        viewport={{ once: true }}
       >
         <div className="pt-10 text-center">
           <h1 className="text-3xl font-semibold text-white select-none">
