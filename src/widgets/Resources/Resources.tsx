@@ -15,13 +15,18 @@ const Resources = () => {
       >
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
           className="text-2xl font-bold text-white"
         >
           Tudo o que você precisa
         </motion.h1>
-        <motion.p className="font-semibold text-gray-500">
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5 }}
+          className="font-semibold text-gray-500"
+        >
           Estrutura enxuta com componentes reutilizáveis, performance de sobre e
           visual moderno.
         </motion.p>
