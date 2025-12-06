@@ -93,16 +93,14 @@ Este projeto é uma landing page moderna e profissional desenvolvida para demons
 <img width="20" />
 <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" width="50" height="50" alt="Tailwind CSS" />
 <img width="20" />
-<img src="https://cdn.simpleicons.org/nextdotjs/000000" width="50" height="50" alt="Next Themes" />
 
 </div>
 
 - **ShadCN UI** - Biblioteca de componentes reutilizáveis construída com Radix UI e Tailwind CSS
 - **Framer Motion** - Biblioteca de animações para React (Motion)
 - **UIverse** - Biblioteca de componentes UI modernos e customizáveis
-- **React Icons** - Biblioteca de ícones populares
+- **Lucide React** - Biblioteca de ícones SVG moderna e leve
 - **Tailwind CSS** - Framework CSS utility-first
-- **Next Themes** - Gerenciamento de temas (dark/light mode)
 
 <div align="center">
 
