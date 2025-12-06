@@ -63,7 +63,7 @@ export const plans: Plans[] = [
     ],
   },
   {
-    title: "Pacote Standard",
+    title: "Pacote [Title]",
     price: 900,
     originalPrice: 1000,
     emphasis: false,
